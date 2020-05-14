@@ -24,22 +24,6 @@ taro build --type h5 --watch
 
 ### 项目图片
 
-
-
-###文件目录如下：
-├── dist                   编译结果目录
-├── config                 配置目录
-|   ├── dev.js             开发时配置
-|   ├── index.js           默认配置
-|   └── prod.js            打包时配置
-├── src                    源码目录
-|   ├── pages              页面文件目录
-|   |   ├── index          index页面目录
-|   |   |   ├── index.js   index页面逻辑
-|   |   |   └── index.css  index页面样式
-|   ├── app.css            项目总通用样式
-|   └── app.js             项目入口文件
-└── package.json
 ```
 进入项目目录开始开发，可以选择小程序预览模式，或者h5预览模式，若使用微信小程序预览模式，则需要自行下载并打开[微信开发者工具]选择预览项目根目录。
 ```
