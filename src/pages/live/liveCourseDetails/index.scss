@@ -1,0 +1,67 @@
+@import "@styles/theme.scss";
+@import "@styles/common.scss";
+
+.live-course-details {
+  .content {
+    margin-top: 215Px;
+    .top {
+      background-color: $white;
+      padding: 10Px 10Px 20Px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        .text {
+          color: $lighter;
+          font-size: $fontSize-26;
+          margin-left: 4Px;
+        }
+      }
+    }
+    .middle {
+      background-color: $white;
+      // padding: 10Px;
+      margin-top: 10Px;
+      height: calc(100% - 255Px);
+
+      .title {
+        border-left: 4Px solid $color-brand;
+        border-bottom: $bw solid $bc;
+        padding: 7Px 0px 7Px 4Px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        .text {
+
+        }
+      }
+      .details {
+        margin: 12Px 10Px;
+        .text {
+          color: $lighter;
+          font-size: $fontSize-24;
+          text-indent: 2Px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    height: 45Px;
+    width: 100%;
+    .button {
+      width: 100%;
+    }
+  }
+}

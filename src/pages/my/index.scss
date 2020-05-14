@@ -1,0 +1,81 @@
+@import '@styles/common.scss';
+@import '@styles/theme.scss';
+
+$width-size: 120px;
+$height-size: 120px;
+.view-mine {
+  background-color: $color-brand;
+  padding: 10Px 20Px 15Px;
+
+  .details {
+    margin-top: 15Px;
+    .score {
+      color: $white;
+      font-size: $fontSize-40;
+    }
+    .title {
+      color: $white;
+      font-size: $fontSize-26;
+      margin-top: 2Px;
+    }
+    .label {
+      color: $white;
+      font-size: $fontSize-26;
+    }
+
+  }
+}
+.mine-useinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .useinfo-img {
+    width: $width-size;
+    height: $height-size;
+    border-radius: 50%;
+  }
+  .useinfo-text {
+    color: $white;
+    font-size: $fontSize-30;
+    margin-left: 30px;
+  }
+  .user {
+    margin-left: 10Px;
+    .name {
+      color: $white;
+      font-size: $fontSize-30;
+    }
+    .card {
+      color: $white;
+      font-size: $fontSize-26;
+    }
+    .depart {
+      color: $white;
+      font-size: $fontSize-26;
+      margin-left: 20Px;
+    }
+  }
+}
+
+.mine-grid {
+  background-color: $white;
+  // margin-top: 100Px;
+  // height: 100Px;
+
+  .content-inner__img {
+     height: 60px;
+     width: 60px;
+  }
+  .content-inner__text {
+    font-size: $fontSize-26;
+  }
+
+}
+.mine-atList {
+  .item-extra__info {
+    font-size: $fontSize-26;
+        color: #969799;
+  }
+}

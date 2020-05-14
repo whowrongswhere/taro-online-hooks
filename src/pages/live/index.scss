@@ -1,0 +1,11 @@
+@import '@styles/common.scss';
+@import '@styles/theme.scss';
+.view-tabs{
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  height: 45Px;
+}
+.view-course {
+  padding-top: 45Px;
+}

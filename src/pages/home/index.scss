@@ -1,0 +1,24 @@
+@import '@styles/common.scss';
+@import '@styles/theme.scss';
+.view-tabs{
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  height: 45Px;
+  margin-bottom: 1PX;
+}
+.segment {
+  position: fixed;
+  z-index: 999;
+  top:45Px;
+  height: 27Px;
+  width: 100%;
+  opacity: 1;
+  background-color: #FFFFFF;
+  .at-segmented-control {
+    border-radius: 0px !important;
+  }
+}
+.view-course {
+  padding-top: 72Px;
+}
