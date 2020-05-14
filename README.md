@@ -25,7 +25,7 @@ taro build --type h5 --watch
 
 ## 部分截图展示
 
-<img src="screenshots/首页.png" width="305px" height="607px" /> <img src="screenshots/直播.png" width="305px" height="607px" /><img src="screenshots/我的.png" width="305px" height="607px" />
+<img src="screenshots/首页.png" width="205px" height="507px" /> <img src="screenshots/直播.png" width="205px" height="507px" /><img src="screenshots/我的.png" width="205px" height="507px" />
 
 ```
 进入项目目录开始开发，可以选择小程序预览模式，或者h5预览模式，若使用微信小程序预览模式，则需要自行下载并打开[微信开发者工具]选择预览项目根目录。
