@@ -22,7 +22,10 @@ npm run dev:h5
 # 或 仅限全局安装
 taro build --type h5 --watch
 
-### 项目图片
+
+## 部分截图展示
+
+<img src="screenshots/首页.png" width="375px" height="667px" /> <img src="screenshots/直播.png" width="375px" height="667px" /><img src="screenshots/我的.png" width="375px" height="667px" />
 
 ```
 进入项目目录开始开发，可以选择小程序预览模式，或者h5预览模式，若使用微信小程序预览模式，则需要自行下载并打开[微信开发者工具]选择预览项目根目录。
