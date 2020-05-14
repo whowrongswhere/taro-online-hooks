@@ -1,10 +1,3 @@
-<!--
- * @Description: 
- * @Author: yaobei
- * @Date: 2020-05-08 09:15:05
- * @LastEditors: yaobei
- * @LastEditTime: 2020-05-14 13:54:41
- -->
 ### Taro简介
 github地址: https://github.com/NervJS/taro
 Taro 是由凹凸实验室打造的一套遵循 React 语法规范的多端统一开发框架。
@@ -29,8 +22,9 @@ npm run dev:h5
 # 或 仅限全局安装
 taro build --type h5 --watch
 
-### 浏览器调试
-debugger
+### 项目图片
+
+
 
 ###文件目录如下：
 ├── dist                   编译结果目录
